@@ -10,4 +10,8 @@ class Waiter
     @exp = exp
   end
 
+  def self.all
+    @@all
+  end
+
 end
